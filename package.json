@@ -6,6 +6,8 @@
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
+    "start": "live-server public",
+    "heroku-postbuild": "npm run build",
     "build": "webpack",
     "dev-server": "webpack-dev-server"
   },
